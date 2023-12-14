@@ -26,9 +26,7 @@ def heartbeat(interval, ws):
         }
         send_json_request(ws, heartbeatJSON)
 
-# token = 'MTExNzgxMTAyNDA4Nzc0NDU5NQ.Gw0eCr.rfAMF-_dSBiOVK7EYfPpRdn8BJIroX2kIlYS-c'
-# token = 'NjQwMTAyNTE2NzM4MDk3MTYz.GUOxs_.bu_YcmodcCn8xJNUHbbf0nUrQ3pbu5N11YpeFc'
-token = 'MTE2NzEzMTk4NzAyMzIzMzA0NA.GCOyry.i3WDnBYvi6RoAg9lIzI_tefqptfpduQsJJnWw8'
+# token = ''
 payload = {
     'op': 2,
     'd': {
