@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Cubic_11'; /* 自定義字體名稱 */
+    src: url('font/Cubic_11_1.100_R.woff') format('woff'); /* 字體檔案的路徑和格式 */
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Cubic_11';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.lineBot-container{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    border-right: 10px solid #023C40;
+    float: left;
+}
+
+.discordBot-container{
+    overflow: hidden;
+    width: 50vw;
+    height: 100vh;
+    border-left: 10px solid #023C40;
+    float: right;
+}
+
+.title{
+    padding: 20px;
+    display: flex;
+}
+
+.lineTitle{
+    background-color: #664E4C;
+    color: #FF299C;
+}
+
+.discordTitle{
+    background-color: #7161EF;
+    color: #EFD9CE;
+}
+
+#avtor{
+    width: 80px;
+    height: auto;
+}
+
+.title_text{
+    margin: 20px;
+}
+
+.msg_container{
+    background-color: #C1D37F;
+    height: 100%;
+    padding: 20px;
+}
+
+.msg_card{
+    background-color: #F0E2A3;
+    border-radius: 20px;
+    margin: 20px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 1.4rem;
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px); /* 向上移動 20 像素，可以根據需要調整 */
+    transition: 1s;
+}
+
+.fade-up.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-up.removed {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+  

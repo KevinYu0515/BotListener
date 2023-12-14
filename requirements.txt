@@ -1,0 +1,7 @@
+websocket-client==1.6.1
+python-socketio==5.10.0
+discord-gateway==0.4.0    
+Flask==2.2.5
+Flask-SocketIO==5.3.6
+line-bot-sdk==3.5.1
+urllib3==1.26.6
